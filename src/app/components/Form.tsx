@@ -121,7 +121,7 @@ export default function Form() {
 
                     <br />
                     <Typography component="legend" variant='h6'>Suggestion</Typography>
-                    <TextField id="outlined-basic" label="Suggestion" multiline variant="outlined" value={formik.values.suggestion} onChange={formik.handleChange} /> <br />
+                    <TextField name='suggestion' multiline variant="outlined" value={formik.values.suggestion} onChange={formik.handleChange} /> <br />
                     <button type="submit" className='bg-blue-800 py-3 px-4 rounded-md'>Submit</button>
                 </form >
             </div >
